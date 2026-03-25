@@ -107,7 +107,7 @@ jobs:
         uses: actions/checkout@v4
       -
         name: Repository Dispatch
-        uses: peter-evans/repository-dispatch@v3
+        uses: peter-evans/repository-dispatch@ff45666b9427631e3450c54a1bcbee4d9ff4d7c0 # v3.0.0
         with:
           token: ${{ secrets.KUBERNETES_CONFIG_REPO_ACCESS_TOKEN }}
           repository: ppy/osu-kubernetes-config
@@ -116,7 +116,7 @@ jobs:
             ${{ env.PRODUCTION_TRACK == 'staging' && format('{{ "values": {{ "image": {{ "tag": "{0}" }} }} }}', github.sha) || format('{{ "dockerTag": "{0}", "productionTrack": "{1}" }}', github.ref_name, env.PRODUCTION_TRACK) }}
       -
         name: Create Sentry release
-        uses: getsentry/action-release@v1
+        uses: getsentry/action-release@a74facf8a080ecbdf1cb355f16743530d712abb7 # v1.11.0
         env:
           SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
           SENTRY_ORG: ppy
