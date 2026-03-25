@@ -123,7 +123,7 @@ jobs:
           node-version: '20'
 
       - name: Set php version
-        uses: shivammathur/setup-php@v2
+        uses: shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f # v2
         with:
           extensions: redis, swoole
           tools: composer:v2
