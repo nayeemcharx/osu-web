@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "89b0ba51130b6b7fa4d8022d6de9b84d",
+    "content-hash": "d72aa08f7330d4877c4e278cd2445010",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1457,16 +1457,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.11.0",
+            "version": "v7.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "8f718f4dfc9c5d5f0c994cdfd103921b43592712"
+                "url": "https://github.com/googleapis/php-jwt.git",
+                "reference": "c03036fd5dbd530a95406ca3b5f6d7b24eaa3910"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/8f718f4dfc9c5d5f0c994cdfd103921b43592712",
-                "reference": "8f718f4dfc9c5d5f0c994cdfd103921b43592712",
+                "url": "https://api.github.com/repos/googleapis/php-jwt/zipball/c03036fd5dbd530a95406ca3b5f6d7b24eaa3910",
+                "reference": "c03036fd5dbd530a95406ca3b5f6d7b24eaa3910",
                 "shasum": ""
             },
             "require": {
@@ -1513,10 +1513,10 @@
                 "php"
             ],
             "support": {
-                "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.11.0"
+                "issues": "https://github.com/googleapis/php-jwt/issues",
+                "source": "https://github.com/googleapis/php-jwt/tree/v7.0.0"
             },
-            "time": "2025-01-23T05:11:06+00:00"
+            "time": "2025-12-15T19:26:43+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -3055,21 +3055,21 @@
         },
         {
             "name": "laravel/passport",
-            "version": "v12.4.2",
+            "version": "v12.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/passport.git",
-                "reference": "65a885607b62d361aedaeb10a946bc6b5a954262"
+                "reference": "1d2e0170a52f150d5c35c9a6fc1f7ccebcde7626"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/passport/zipball/65a885607b62d361aedaeb10a946bc6b5a954262",
-                "reference": "65a885607b62d361aedaeb10a946bc6b5a954262",
+                "url": "https://api.github.com/repos/laravel/passport/zipball/1d2e0170a52f150d5c35c9a6fc1f7ccebcde7626",
+                "reference": "1d2e0170a52f150d5c35c9a6fc1f7ccebcde7626",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "firebase/php-jwt": "^6.4",
+                "firebase/php-jwt": "^6.4|^7.0",
                 "illuminate/auth": "^9.21|^10.0|^11.0|^12.0",
                 "illuminate/console": "^9.21|^10.0|^11.0|^12.0",
                 "illuminate/container": "^9.21|^10.0|^11.0|^12.0",
@@ -3127,7 +3127,7 @@
                 "issues": "https://github.com/laravel/passport/issues",
                 "source": "https://github.com/laravel/passport"
             },
-            "time": "2025-02-12T16:11:33+00:00"
+            "time": "2026-02-19T14:14:05+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -7696,16 +7696,16 @@
         },
         {
             "name": "shopify/shopify-api",
-            "version": "v5.9.0",
+            "version": "v6.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Shopify/shopify-api-php.git",
-                "reference": "0080c3ca238c91237c8c65ff182bc5a7c5ba65cf"
+                "reference": "80e89587db4c6f111b52029a29a0f26277300b76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Shopify/shopify-api-php/zipball/0080c3ca238c91237c8c65ff182bc5a7c5ba65cf",
-                "reference": "0080c3ca238c91237c8c65ff182bc5a7c5ba65cf",
+                "url": "https://api.github.com/repos/Shopify/shopify-api-php/zipball/80e89587db4c6f111b52029a29a0f26277300b76",
+                "reference": "80e89587db4c6f111b52029a29a0f26277300b76",
                 "shasum": ""
             },
             "require": {
@@ -7714,7 +7714,7 @@
                 "ext-hash": "*",
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "firebase/php-jwt": "^5.2 || ^6.2",
+                "firebase/php-jwt": "^7.0",
                 "guzzlehttp/guzzle": "^7.0",
                 "guzzlehttp/psr7": "^2.0",
                 "php": "^8.1",
@@ -7764,9 +7764,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Shopify/shopify-api-php/issues",
-                "source": "https://github.com/Shopify/shopify-api-php/tree/v5.9.0"
+                "source": "https://github.com/Shopify/shopify-api-php/tree/v6.1.1"
             },
-            "time": "2025-01-08T19:04:36+00:00"
+            "time": "2026-03-02T21:44:12+00:00"
         },
         {
             "name": "spatie/data-transfer-object",
@@ -13885,7 +13885,7 @@
         "ext-ds": "*",
         "ext-redis": "*"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "platform-overrides": {
         "php": "8.4.0"
     },
